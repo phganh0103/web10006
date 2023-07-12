@@ -1,0 +1,26 @@
+
+table{
+    border: 1px solid black;
+}
+   
+table tr td{
+    border: 1px solid black;
+    
+}
+table caption{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.thead{
+    background-color: #999999 !important;
+    border: 1px solid black;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #efefef;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #cccccc;
+}
